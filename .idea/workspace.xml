@@ -2,39 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b848ad-bd20-4d13-a627-c9b2c3f659d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/atguigu/springcloud/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/atguigu/springcloud/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/cloud-provider-payment-8002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/OrderZKMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/cloud-provider-payment-8004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/atguigu/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/resources/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/entities/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/PaymentMain8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/entities/CommonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/entities/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,6 +27,8 @@
     <ignored path="$PROJECT_DIR$/cloud-eureka-server7001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka-server7002/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-payment-8002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment-8004/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumerzk-order80/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,24 +57,61 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="1320">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/OrderZKMain80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/PaymentMain8002.java">
+        <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="4" column="71" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="71" />
+            <state relative-caret-position="352">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/controller/OrderZKController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +162,15 @@
         <option value="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/PaymentMain8002.java" />
         <option value="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment-8004/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/atguigu/springcloud/PaymentMain8004.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/OrderZKMain80.java" />
+        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/controller/OrderZKController.java" />
       </list>
     </option>
   </component>
@@ -164,11 +194,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-consumer-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-provider-payment-8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment-8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-provider-payment-8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-provider-payment-8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -195,8 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,25 +244,25 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumerzk-order80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumerzk-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumerzk-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumerzk-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -233,7 +270,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumerzk-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -242,20 +279,12 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumerzk-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,20 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8002">
-    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekaMain7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderZKMain80">
     <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7002" />
       <extension name="coverage">
@@ -345,6 +361,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderZKMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumerzk-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderZKMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8001" />
@@ -365,12 +394,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment-8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderZKMain80" />
+        <item itemvalue="Spring Boot.PaymentMain8004" />
         <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +434,9 @@
       <workItem from="1592444024039" duration="2307000" />
       <workItem from="1592446423209" duration="291000" />
       <workItem from="1592446751062" duration="3867000" />
-      <workItem from="1592450673966" duration="12381000" />
+      <workItem from="1592450673966" duration="12482000" />
+      <workItem from="1592533822235" duration="638000" />
+      <workItem from="1592610692866" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="项目构建、支付模块构建">
       <created>1592361461325</created>
@@ -407,16 +452,30 @@
       <option name="project" value="LOCAL" />
       <updated>1592444919729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Eureka">
+      <created>1592474058432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592474058432</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Eureka">
+      <created>1592474099912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592474099912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40643000" />
+    <option name="totallyTimeSpent" value="45991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29514825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30997303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -438,14 +497,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32944608" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32944608" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.53790087" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.53790087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32951483" />
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.41509435" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.54380053" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -495,7 +554,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目构建、支付模块构建" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目构建、支付模块构建" />
+    <MESSAGE value="Eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1.pom">
@@ -556,26 +616,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/entities/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/entities/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="12" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/mybatis/mapper/PaymentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -583,26 +625,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/entities/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/entities/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/entities/Payment.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/entities/Payment.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -716,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
@@ -793,24 +810,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/PaymentMain8002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
+        <state relative-caret-position="22">
           <caret line="4" column="71" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8004/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/atguigu/springcloud/PaymentMain8004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8004/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/OrderZKMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/controller/OrderZKController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
