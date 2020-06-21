@@ -16,6 +16,7 @@
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-payment-8001" />
         <module name="cloud-provider-consul-payment-8006" />
+        <module name="cloud-consumer-openfeign-order80" />
         <module name="cloud-provider-payment-8004" />
       </profile>
     </annotationProcessing>
