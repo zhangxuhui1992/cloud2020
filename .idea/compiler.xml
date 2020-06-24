@@ -16,11 +16,14 @@
         <module name="cloud-api-commons" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-consumerconsul-order80" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
         <module name="cloud-consumer-openfeign-order80" />
         <module name="cloud-provider-consul-payment-8006" />
         <module name="cloud-provider-hystrix-payment-8001" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-config-clinet3366" />
+        <module name="cloud-stream-rabbitmq-provider-8801" />
+        <module name="cloud-stream-rabbitmq-consumer-8803" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-provider-payment-8004" />

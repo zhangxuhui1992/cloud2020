@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b848ad-bd20-4d13-a627-c9b2c3f659d3" name="Default Changelist" comment="BUS搭建">
-      <change afterPath="$PROJECT_DIR$/cloud-config-clinet3366/cloud-config-clinet3366.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-clinet3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-clinet3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-clinet3366/src/main/java/com/atguigu/springcloud/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-clinet3366/src/main/resources/config/bootstrap.yml" afterDir="false" />
+    <list default="true" id="c2b848ad-bd20-4d13-a627-c9b2c3f659d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/cloud-stream-rabbitmq-consumer-8802.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/atguigu/springcloud/MQConsumerMain8802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/cloud-stream-rabbitmq-consumer-8803.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/atguigu/springcloud/MQConsumerMain8803.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/atguigu/springcloud/controller/ReviceMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/cloud-stream-rabbitmq-provider-8801.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/StreanMQMain8801.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/controller/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/service/impl/IMessageProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/resources/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/atguigu/springcloud/ConfigClientMain3355.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/atguigu/springcloud/ConfigClientMain3355.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/config/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/config/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,6 +44,9 @@
     <ignored path="$PROJECT_DIR$/cloud-config-center3344/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-client3355/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-clinet3366/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +75,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/resources/config/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,21 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/controller/OrderZKController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment-8006/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment-8006/src/main/resources/config/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment-8006/src/main/java/com/atguigu/springcloud/PaymentConsulMain8006.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment-8006/src/main/java/com/atguigu/springcloud/controller/PaymentConsulController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumerconsul-order80/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/config/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/atguigu/springcloud/OrderConsulMain80.java" />
-        <option value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/atguigu/springcloud/controller/OrderConsulController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/myrule/MySelfRule.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/atguigu/springcloud/OrderOpenFeignMain80.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/atguigu/springcloud/controller/OrderOpenFeignController.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/atguigu/springcloud/config/OpenFeignConfig.java" />
@@ -142,6 +127,21 @@
         <option value="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/cloud-config-clinet3366/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-clinet3366/src/main/resources/config/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/resources/cinfig/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/StreanMQMain8801.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/IMessageProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/service/impl/IMessageProviderImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/controller/SendMessageController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/atguigu/springcloud/MQConsumerMain8802.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/atguigu/springcloud/MQConsumerMain8803.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/atguigu/springcloud/controller/ReviceMessageController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/resources/config/application.yml" />
       </list>
     </option>
   </component>
@@ -187,17 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -247,25 +237,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
-    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-center3344" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MQConsumerMain8803">
     <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-client3355" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.springcloud.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,7 +255,7 @@
       <module name="cloud-config-clinet3366" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.springcloud.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,6 +292,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MQConsumerMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.MQConsumerMain8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQConsumerMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.MQConsumerMain8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderConsulMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerconsul-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderConsulMain80" />
@@ -322,14 +325,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-feign-hystrix-order80" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderHystrixMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -363,6 +360,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentHystrixMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8001" />
@@ -370,14 +374,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment-8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8002" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -390,13 +388,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreanMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider-8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreanMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MQConsumerMain8803" />
+        <item itemvalue="Spring Boot.MQConsumerMain8802" />
+        <item itemvalue="Spring Boot.StreanMQMain8801" />
         <item itemvalue="Spring Boot.ConfigClientMain3366" />
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
-        <item itemvalue="Spring Boot.OrderHystrixMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +437,7 @@
       <workItem from="1592828802985" duration="2353000" />
       <workItem from="1592874779108" duration="164000" />
       <workItem from="1592874984905" duration="16434000" />
-      <workItem from="1592965636807" duration="3692000" />
+      <workItem from="1592965636807" duration="8686000" />
     </task>
     <task id="LOCAL-00001" summary="项目构建、支付模块构建">
       <created>1592361461325</created>
@@ -498,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1592906091507</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="BUS rbbitmq全局刷新搭建">
+      <created>1592969483701</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592969483702</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94506000" />
+    <option name="totallyTimeSpent" value="99500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -629,7 +647,8 @@
     <MESSAGE value="Hystrix搭建" />
     <MESSAGE value="Gateway搭建" />
     <MESSAGE value="BUS搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="BUS搭建" />
+    <MESSAGE value="BUS rbbitmq全局刷新搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="BUS rbbitmq全局刷新搭建" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -641,135 +660,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.1.RELEASE/spring-cloud-netflix-eureka-client-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4772">
-          <caret line="491" column="32" selection-start-line="491" selection-start-column="16" selection-end-line="491" selection-end-column="32" />
-          <folding>
-            <element signature="e#16163#16164#0" expanded="true" />
-            <element signature="e#16213#16214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.1.RELEASE/spring-cloud-netflix-eureka-client-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1951">
-          <caret line="353" column="33" selection-start-line="353" selection-start-column="20" selection-end-line="353" selection-end-column="33" />
-          <folding>
-            <element signature="e#25039#25040#0" expanded="true" />
-            <element signature="e#25080#25081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="14" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0.jar!/cn/hutool/core/util/IdUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0.jar!/cn/hutool/core/lang/UUID.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/cn/hutool/core/lang/UUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="343" column="18" selection-start-line="343" selection-start-column="18" selection-end-line="343" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/cn/hutool/core/util/IdUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboardMain9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/controller/PaymentHystrixController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -1064,8 +954,147 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/resources/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="364">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/3.0.1.RELEASE/spring-cloud-stream-3.0.1.RELEASE.jar!/org/springframework/cloud/stream/annotation/EnableBinding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/StreanMQMain8801.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/service/impl/IMessageProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/atguigu/springcloud/controller/SendMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/atguigu/springcloud/MQConsumerMain8802.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/atguigu/springcloud/MQConsumerMain8803.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/atguigu/springcloud/controller/ReviceMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

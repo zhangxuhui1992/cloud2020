@@ -28,6 +28,9 @@
       <module>cloud-config-center3344</module>
       <module>cloud-config-client3355</module>
       <module>cloud-config-clinet3366</module>
+      <module>cloud-stream-rabbitmq-provider-8801</module>
+      <module>cloud-stream-rabbitmq-consumer-8802</module>
+      <module>cloud-stream-rabbitmq-consumer-8803</module>
   </modules>
 
 
