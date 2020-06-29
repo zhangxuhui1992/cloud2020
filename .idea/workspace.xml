@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b848ad-bd20-4d13-a627-c9b2c3f659d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/cloudAlibaba-config-nacos-client-3377.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/java/com/atguigu/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/resources/config/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/cloudAlibaba-consumer-nacos-order-83.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/src/main/java/com/atguigu/springcloudalibaba/OrderNacosMain83.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/src/main/java/com/atguigu/springcloudalibaba/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/src/main/java/com/atguigu/springcloudalibaba/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9001/cloudAlibaba-provider-payment-9001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9001/src/main/java/com/atguigu/springcloudalibaba/NacosProviderPaymentMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9001/src/main/java/com/atguigu/springcloudalibaba/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9001/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9002/cloudAlibaba-provider-payment-9002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9002/src/main/java/com/atguigu/springcloudalibaba/NacosProviderPaymentMain9002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9002/src/main/java/com/atguigu/springcloudalibaba/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment-9002/src/main/resources/config/application.yml" afterDir="false" />
+    <list default="true" id="c2b848ad-bd20-4d13-a627-c9b2c3f659d3" name="Default Changelist" comment="nacos config">
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/cloudAlibaba-sentinel-service-8401.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/SentinelServiceMain8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/resources/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,6 +39,7 @@
     <ignored path="$PROJECT_DIR$/cloudAlibaba-provider-payment-9002/target/" />
     <ignored path="$PROJECT_DIR$/cloudAlibaba-consumer-nacos-order-83/target/" />
     <ignored path="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/target/" />
+    <ignored path="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +69,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/resources/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/SentinelServiceMain8401.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/controller/FlowLimitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/config/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/atguigu/springcloud/controller/ClientController.java" />
-        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/atguigu/springcloud/ConfigClientMain3355.java" />
-        <option value="$PROJECT_DIR$/cloud-config-clinet3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java" />
         <option value="$PROJECT_DIR$/cloud-config-clinet3366/src/main/java/com/atguigu/springcloud/controller/ClientController.java" />
         <option value="$PROJECT_DIR$/cloud-config-center3344/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-client3355/pom.xml" />
@@ -174,6 +169,10 @@
         <option value="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/pom.xml" />
         <option value="$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/java/com/atguigu/springcloud/NacosConfigClientMain3377.java" />
+        <option value="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/SentinelServiceMain8401.java" />
+        <option value="$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/controller/FlowLimitController.java" />
       </list>
     </option>
   </component>
@@ -207,7 +206,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
+    <option name="x" value="177" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -224,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,62 +231,11 @@
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudAlibaba-config-nacos-client-3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
+  <component name="RunManager" selected="Spring Boot.SentinelServiceMain8401">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
@@ -386,15 +333,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MQConsumerMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-consumer-8803" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.MQConsumerMain8803" />
+    <configuration name="MQConsumerMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.MQConsumerMain8802" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -521,6 +462,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelServiceMain8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudAlibaba-sentinel-service-8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ayguigu.springcloudalibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ayguigu.springcloudalibaba.SentinelServiceMain8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreanMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-provider-8801" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreanMQMain8801" />
@@ -530,11 +484,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelServiceMain8401" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Spring Boot.OrderNacosMain83" />
         <item itemvalue="Spring Boot.NacosProviderPaymentMain9002" />
         <item itemvalue="Spring Boot.NacosProviderPaymentMain9001" />
-        <item itemvalue="Spring Boot.MQConsumerMain8803" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +520,10 @@
       <workItem from="1592874984905" duration="16434000" />
       <workItem from="1592965636807" duration="13745000" />
       <workItem from="1593037606541" duration="670000" />
-      <workItem from="1593310980733" duration="7705000" />
+      <workItem from="1593310980733" duration="7927000" />
+      <workItem from="1593354697884" duration="593000" />
+      <workItem from="1593397686154" duration="707000" />
+      <workItem from="1593428393928" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="项目构建、支付模块构建">
       <created>1592361461325</created>
@@ -652,17 +609,23 @@
       <option name="project" value="LOCAL" />
       <updated>1592981946778</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="nacos config">
+      <created>1593337396212</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593337396212</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112934000" />
+    <option name="totallyTimeSpent" value="115740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49854228" visible="true" weight="0.29986522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49854228" visible="true" weight="0.31469002" />
       <window_info id="Structure" order="1" sideWeight="0.50145775" side_tool="true" weight="0.26145554" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -786,7 +749,8 @@
     <MESSAGE value="BUS搭建" />
     <MESSAGE value="BUS rbbitmq全局刷新搭建" />
     <MESSAGE value="stream消息驱动" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream消息驱动" />
+    <MESSAGE value="nacos config" />
+    <option name="LAST_COMMIT_MESSAGE" value="nacos config" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -798,34 +762,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-config-center3344/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/resources/config/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-clinet3366/src/main/resources/config/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-clinet3366/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1217,9 +1153,47 @@
     <entry file="file://$PROJECT_DIR$/cloudAlibaba-config-nacos-client-3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/controller/FlowLimitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service-8401/src/main/java/com/ayguigu/springcloudalibaba/SentinelServiceMain8401.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
